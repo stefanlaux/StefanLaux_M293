@@ -1,2 +1,3 @@
 # StefanLaux_M293
-This repository is TBZ
+
+Ich möchte am Ende dieses Moduls im Stande sein eine Portfoliowebseite oder einen Online Shop zu machen und vorallem auch online
