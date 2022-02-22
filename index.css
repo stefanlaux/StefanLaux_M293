@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope&display=swap');
+
+*{
+    font-family: 'Manrope', sans-serif;
+}
+
+.nav{
+    display: block;
+}
+
+
+.title{
+    font-family: 'Bebas Neue', cursive;
+}
+
+.titlelog{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.containe{
+    padding-left: 10%;
+  max-width: 800px;
+  width:fit-content;
+  background: #fff;
+  margin: 50px auto;
+  box-shadow: 0 0 20px rgba(72,98,85, 0.6);
+  box-sizing: border-box;
+  padding: 40px;
+}
+
+
+.image{
+    padding-top: 1%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.topnav{
+    background-color: white;
+    overflow: hidden;
+    
+  }
+  
+.para{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Manrope', sans-serif;
+    padding-top:2%;
+}
+
+
+  .topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+
+  .topnav a:hover{
+    background-color: #ddd;
+    color: black;
+  }
+  
+
+  .topnav a.active{
+    
+    color: #2e2e2e;
+  }
