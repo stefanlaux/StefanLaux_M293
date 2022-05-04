@@ -2,29 +2,34 @@
 <html lang="en">
 <head>
     <link rel="icon" href="./bilder/logopso.jpg" />
-    <link rel="stylesheet" href="index.css" type="text/css">
+    <link rel="stylesheet" href="./HTML Files/index.css" type="text/css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=d, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login | Peso 2.0</title>
 </head>
 <body>
     <h1 class="titlelog">Please Login</h1>
-    <form action="./lander.html" method="post">
+   
     <div class="containe">
+         <form action="./HTML Files/lander.html" method="post">
+             
         <label for="username"><b>Username</b></label>
-        <input type="text" placeholder="Enter Username" name="username" required>
+        <input id="username" type="text" placeholder="Enter Username" name="username" required>
     <br>
     <br>
-        <label for="password"><b>Password</b></label>
+        <label for="password"><b style="padding-right:1%">Password</b></label>
         <input type="password" placeholder="Enter Password" name="password" required>
     <br>
     <br>
     
-        <button type="submit">Login</button>
-    
+        <button type="submit" class="button1">Login</button>
+         </form>    
+         <br>
+         <a href="./HTML Files/register.html"><button class="button1">Registrieren</button></a>
+         <a href=".//HTML Files/password.html"><button class="button1">Passwort vergessen</button></a> 
       </div>
-    </form>
+  
     
 </body>
 </html>
